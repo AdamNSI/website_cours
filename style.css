@@ -1,0 +1,73 @@
+
+header
+{
+background-color:#2C2F33 ;
+padding: 18px 0 12px;
+
+}
+
+
+#titre
+{
+ text-decoration: none;
+ background-color: rgba(0, 0, 0, 0.1);
+ border-radius: 3px;
+ box-decoration-break: clone;
+
+
+}
+
+h1{
+	width:25%;
+
+
+}
+
+
+body
+
+{
+display: flex;
+align-items: center;
+text-align: center;
+color : rgb(255,255,255);
+background-color: #2C2F33;
+flex-direction: column;
+font-family: "Lato", Arial, sans-serif;
+font-size: 16px;
+
+
+}
+
+#essai
+{
+ color : rgb(255,255,255);
+}
+
+
+
+header
+{
+color:  #fff;
+text-decoration: none;
+	text-decoration-line: none;
+	text-decoration-style: solid;
+	text-decoration-color: currentColor;
+	text-decoration-thickness:  auto;
+display: inline-block;
+
+
+
+
+
+}
+
+
+
+ul
+{
+	flex-direction: row;
+	display:flex;
+	list-style:none;
+
+}
