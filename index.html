@@ -1,3 +1,13 @@
+<!--
+[★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★	]
+[																																		   	]
+[											Site web crée par :																				]
+[																																		   	]
+[             																															   	]
+[		                   															                                       		           	]
+[★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★ ]
+-->
+
 <!DOCTYPE html>
 
 <html>
@@ -12,47 +22,64 @@
 
 	<body>
 		<header>
-			<nav>
-				<a href="pages/news">Nouveautés</a>
-				<a href="pages/propos">A propos</a>
-				<a href="pages/autres">Autres cours </a>
-			</nav>
+			<section>
+					<nav>
+						<a href="pages/news.html">Nouveautés</a>
+						<a href="pages/propos.html">A propos</a>
+						<a href="pages/autres.html">Autres cours </a>
+					</nav>
+			</section>
 		</header>
+		<div id="mastehead">
 
+			<section id="cour">
+				<div id="cours">
 
-		<h1 id="titre">Cours de <abbr title="Numérique et Sciences Informatique">NSI </abbr> </h1>
-		
-		<h2>Les types de base :</h2>
+		<iframe width="560" height="315"  src="https://www.youtube.com/embed/_kpAWHDsVzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		<h2>Les types de base</h2>
 		<br/>
-		<p>Il existe la base 2 ( binaire ) ou bien la base 10 (décimal) <br/>
-		Il existe une infinitée de base = 1 symbole = 1 base
-		2 symbole = base 2... </p>
-
+			<p>Il existe la base 2 ( binaire )</p>
 		<h3>Représentation des nombres entiers</h3>
-		<p>En décimal 123 = 1*10<sup>2</sup> + 2*10<sup>1</sup> + 3*10<sup>0</sup>
+			<p>En décimal 123 = 1*10<sup>2</sup> + 2*10<sup>1</sup> + 3*10<sup>0</sup>
 		<br/>
-		= 123<sub>(10)</sub> </p>
+			= 123<sub>(10)</sub> </p>
 		<h3> Représentation de nombre binaire </h3>
 
-		<p> en binaire (base2), 1011 = 1*2<sup>3</sup> 0*2<sup>2</sup> 1*2<sup>1</sup> 1*2<sup>0</sup> 
-			= 11<sub>(10)</sub> </p>
+			<p> en binaire (base2), 1011 = 1*2<sup>3</sup> 0*2<sup>2</sup> 1*2<sup>1</sup> 1*2<sup>0</sup> = 11<sub>(10)</sub> </p>
 
 		<h3> Représentation de nombre hexadécimal </h3>
 
-		<p> en hexadécimal (base16), "fafa" = 15*16<sup>3</sup> 10*16<sup>2</sup> 15*16<sup>1</sup> 10*16<sup>0</sup> 
+			<p> en hexadécimal (base16), "fafa" = 15*16<sup>3</sup> 10*16<sup>2</sup> 15*16<sup>1</sup> 10*16<sup>0</sup> 
 			= 64250<sub>(10)</sub> </p>
 		<details>
 			<summary>
 				Autres exemples :
 			</summary>
-			<p> 0111 0000 0001 1111 <sub>(2)</sub> = 701F <sub>(16)</sub> </p> <br/>
-			<p> Nous réunissons par groupe de 4 les symboles et les convertissons en base 16
+				<p> 0111 0000 0001 1111 <sub>(2)</sub> = 701F <sub>(16)</sub> </p> <br/>
+				<p> Nous réunissons par groupe de 4 les symboles et les convertissons en base 16:
 				0111 = 7 ==> 0000 = 0  ==>  0001 = 1 ==> 1111 = F </p>
 
 		</details>
 
+		<p> Il existe aussi des nombres binaire négatifs ou des nombres binaire a virgules </p> <br/>
+
+		<h3> Le binaire des négatifs </h3> 
+		<p> Les nombres négatifs sont codés de façon que les opérations classiques puisent être effectuées normalement.<br/> Autrement dit, la somme de  2 et (-2) doit bien donner 0. </p> <br/>
+		<p>Les nombres négatifs sont codés selon leur complément de deux </p>
+		<details>
+			<summary>
+				Exemple :
+			</summary>
+				<p> Prenons 21, sa valeur binaire est 010101.<br/>
+					 On inverse les bits cela nous donne :
+					101010 ensuite, nous ajoutons 1, cela nous donne 101011. Et voila, -21 <br/>
+					le bit tout a droite est celui des signes, 0 = + ; 1 = - (pour faire simple)
+					<br/>donc le bit du poid 32 est le bit des signes. Si l'on reinverse les bits et ajoute 1, nous retrouvons 21. <br/>	
+				</p>
+		</details>
+		<p> Et voila, le cour est teminé ! </p>
 
 	</body>
-
 
 </html>
