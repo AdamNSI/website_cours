@@ -1,8 +1,8 @@
 header
 {
-background-color: #4B4B4B;
-padding: 18px 0 14px;
-width: 100%;
+background-color: #4B4B4B; /* couleur de fond de la bande du haut */
+padding: 18px 0 14px; 
+width: 100%; /* taille a 100% */
 
 }
 
@@ -20,31 +20,31 @@ position: relative;
 
 header, nav
 {
-float: right;
-line-height: 22px;
-margin-right: 33px;
+float: right; /* flottante */
+line-height: 22px; /*  */
+margin-right: 33px; 
 }
 header, nav a
 {
-color: #fff;
-text-decoration: none;
-display: inline-block;
-margin-left: 32px;
+color: #fff; /* couleur du texte des bouton "Nouvautés/A propos/ Autres Cours ( d'ailleur la page a propos est en cour de développement et les 2 autres pas prêtes)"  */
+text-decoration: none; /* aucune décoration pour éviter la décoration de base des hyperliens (bleu souligné) */
+display: inline-block; 
+margin-left: 32px; /* décalé la marge gauche a 32px */
 
 }
 div#mastehead
 {
-	width: 100%;
+	width: 100%;  /* taille maximale */
 	
 display: flex;
 align-self: auto;
     background: linear-gradient(-40deg,#9a326b 0,#42668a 100%);
-        background-color: rgba(0, 0, 0, 0);
-        background-position-x: 0%;
+        background-color: rgba(0, 0, 0, 0); /* background noir avec 0 d'opacité */
+        background-position-x: 0%; /* pos x / y */
         background-position-y: 0%;
         background-repeat: repeat;
         background-attachment: scroll;
-        background-image: linear-gradient(-40deg, rgb(154, 50, 107) 0px, rgb(66, 102, 138) 100%);
+        background-image: linear-gradient(-40deg, rgb(154, 50, 107) 0px, rgb(66, 102, 138) 100%); /* le magnifique dégradé que vous pouvez voir en fond (combien sur 10) */
         background-size: auto;
         background-origin: padding-box;
         background-clip: border-box;
@@ -65,31 +65,30 @@ div#masthead section
 }
 div#masthead section div.tagline 
 {
-    color: #fff;
-    text-align: center;
-    box-sizing: border-box;
-    width: 100%;
-    font-weight: bold;
-    font-size: 3em;
-    line-height: inherit;
+    color: #fff; /* couleur */
+    text-align: center; /* centré */
+    box-sizing: border-box; 
+    width: 100%; /* taille max */
+    font-weight: bold; /* gras */
+    font-size: 3em; /* taille */
+    line-height: inherit; /* inheritiére de quelque chose */
 }
 div#masthead section div.tagline span {
 
-    padding: 5px 10px;
-    background-color: rgba(0, 0, 0, 0.1);
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-    border-radius: 3px;
+    padding: 5px 10px;  /* détermine des espacements  */
+    background-color: rgba(0, 0, 0, 0.1);  /* transparance */
+    box-decoration-break: clone;    
+    border-radius: 3px; /* taille du bord */
 }
 
 
 div#masthead section.cour div.cours 
 {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-        overflow-x: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* transparance */
+    overflow: hidden;    /* création d'un nouveau contexte de formatage de bloc */
+        overflow-x: hidden; /* hidden : Le contenu est rogné si besoin pour s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée. */
         overflow-y: hidden;
-    position: relative;
+    position: relative; /* l'élément est positioné dans le flux normal du doc puis décalé par rapport à lui même selon les valeurs fournie par top,right... */
 }
 
 
@@ -104,43 +103,42 @@ section div#tagline span
 body
 
 {
-display: flex;
-align-items: center;
-text-align: center;
-background-image: linear-gradient(-40deg, rgb(154, 50, 107) 0px, rgb(66, 102, 138) 100%);
-color: rgb(255,255,255) ;
-flex-direction: column;
-font-family: "Lato", Arial, sans-serif;
-font-size: 16px;
+display: flex; /* On definis la fenêtre en élément flex */
+align-items: center; /* les items sont aligné */
+text-align: center; /* le texte est centré */
+color: rgb(255,255,255) ; /* couleur blanche pour le texte nottament */
+flex-direction: column; /* La direction flex qui nous permet d'ordonner le tout en colonne */
+font-family: "Lato", Arial, sans-serif; /* la police du texte */
+font-size: 16px; /* la police à 16px (taille) */
 
 font-family: "Lato", Arial, sans-serif;
-margin: 0;
-line-height: 1.6;
-min-width: 480px;
-width: 100%;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
+margin: 0; /* marge a 0 */
+line-height: 1.6; /* hauteur de la ligne */
+min-width: 480px; /* la taille minimale est de 480px */
+width: 100%;  /* Taille à son maximal */
+position: absolute;     /* La position est absolue*/
+top: 0; /* haut à 0 */
+left: 0; /* gauche à 0 */
+right: 0; /* droite à 0 */
 }
 
 h2
 {
-font-size: 30px;
-text-decoration: underline;
+font-size: 30px; /*taille du texte*/
+text-decoration: underline; /* souligner */
 
 }
 
 h3
 {
-font-size: 20px;
-text-decoration: underline;
+font-size: 20px;  /* la taille du texte */
+text-decoration: underline; /* c'est souligné grâce à ça */
 }
 
 div#cours
 {
 
-width: 100%;
+width: 100%;  /* la taille à son maximal possible c'est important */
 
 }
 
@@ -148,8 +146,13 @@ width: 100%;
 
 div#video iframe
 {
-    display: flex;
-    
+display: flex;   /*On veut flex*/
+}
 
+img
+{
+border-radius: 2px;
+border-image: inherit;  /*On ajoute des bordures doubles sympa*/
+border-style: double;
 
 }
