@@ -1,0 +1,153 @@
+header
+{
+background-color: #4B4B4B;
+padding: 18px 0 14px;
+width: 100%;
+
+}
+
+header, section
+{
+width: 100%;
+margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+position: relative;
+
+}
+
+header, nav
+{
+float: right;
+line-height: 22px;
+margin-right: 33px;
+}
+header, nav a
+{
+color: #fff;
+text-decoration: none;
+display: inline-block;
+margin-left: 32px;
+
+}
+div#mastehead
+{
+	width: 100%;
+	
+display: flex;
+align-self: auto;
+    background: linear-gradient(-40deg,#9a326b 0,#42668a 100%);
+        background-color: rgba(0, 0, 0, 0);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: linear-gradient(-40deg, rgb(154, 50, 107) 0px, rgb(66, 102, 138) 100%);
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+
+}
+div#masthead > section 
+{
+    position: relative;
+}
+div#masthead section 
+{
+    width: 1200px;
+    margin: 25px auto 0;
+}
+div#masthead section div.tagline 
+{
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: inherit;
+}
+div#masthead section div.tagline span {
+
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    border-radius: 3px;
+}
+
+
+div#masthead section.cour div.cours 
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    position: relative;
+}
+
+
+section div#tagline span
+{
+	display: flex;
+	text-align: center;
+	font-size: 16px 
+}
+
+
+body
+
+{
+display: flex;
+align-items: center;
+text-align: center;
+background-image: linear-gradient(-40deg, rgb(154, 50, 107) 0px, rgb(66, 102, 138) 100%);
+color: rgb(255,255,255);
+flex-direction: column;
+font-family: "Lato", Arial, sans-serif;
+font-size: 16px;
+
+font-family: "Lato", Arial, sans-serif;
+margin: 0;
+line-height: 1.6;
+min-width: 480px;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+}
+
+h2
+{
+font-size: 30px;
+text-decoration: underline;
+
+}
+
+h3
+{
+font-size: 20px;
+text-decoration: underline;
+}
+
+div#cours
+{
+
+width: 100%;
+
+}
+
+
+
+div#video iframe
+{
+    display: flex;
+    
+}
