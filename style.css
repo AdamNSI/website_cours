@@ -108,10 +108,11 @@ display: flex;
 align-items: center;
 text-align: center;
 background-image: linear-gradient(-40deg, rgb(154, 50, 107) 0px, rgb(66, 102, 138) 100%);
-color: rgb(255,255,255);
+color: rgb(255,255,255) ;
 flex-direction: column;
 font-family: "Lato", Arial, sans-serif;
 font-size: 16px;
+
 font-family: "Lato", Arial, sans-serif;
 margin: 0;
 line-height: 1.6;
