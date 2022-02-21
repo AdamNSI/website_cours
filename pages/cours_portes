@@ -1,0 +1,365 @@
+<!--
+[★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★	]
+[																																		   	]
+[											Site web crée par : Adam.H																				]
+[																																		   	]
+[             																															   	]
+[		                   															                                       		           	]
+[★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★★━━━━━━━━━━━━━━━━━━━━★ ]
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<meta charset="utf-8" />
+		<title> Cours portes logiques </title>
+		<html lang="fr">
+		<link rel="stylesheet" type="text/css" href="style2.css">
+
+	</head>
+
+	<body>
+		<header>
+			<section>
+					<nav>
+						<a href="news.html">Nouveautés</a>
+						<a href="propos.html">A propos</a>
+						<a href="autres.html">Autres cours </a>
+					</nav>
+			</section>
+		</header>
+		<div id="mastehead" style="height: 100%;">
+
+			<section id="cours">
+				<div id="coursportes">
+
+		<h2>Portes logiques</h2>
+			<p> Un transistor possède trois broches : la grille, la sortie (ou drain) et la source soumis à des états de tension haute ou basse qu'on peut assimiler aux valeurs binaires 1 et 0 d'un bit. Si la tension appliquée sur la grille est haute (bit à 1) alors le transitor laisse passer le courant entre la source d'énergie et la sortie et cette dernière passe à l'état de tension basse (bit à 0), sinon la sortie reste en tension haute (bit 1). </p>
+<br/>
+<p> Une fonction logique prend un ou plusieurs bits en entrée et retourne un ou plusieurs bits en sortie. Une porte logique est un circuit électronique représentant une fonction logique.</p>
+<br/>
+<p>Une table logique représente les sorties produites par une fonction logique pour toutes les entrées possibles.</p>
+<br/>
+<p> Un transistor représente une fonction logique dont le bit d'entrée est l'état de tension de la grille et le bit de sortie, l'état de tension de la sortie. La table logique (table 1) associée est celle du NON logique ou Inverseur.</p>
+
+<div>
+	<tbody>
+	<h3>Porte ET (and):</h3>
+	<table class="PorteET">
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td colspan="2"><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>B</td>
+	<td>A ET B
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>0</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>1</td>
+	<td>1
+	</td></tr></tbody></table>
+	<br/>
+	<td>
+
+		<h3>Porte ou (OR):</h3>
+	<table class="wikitable droite">
+
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td colspan="2"><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>B</td>
+	<td>A OU B
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>0</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>1</td>
+	<td>1
+	</td></tr></tbody></table>
+	</td>
+
+	<td>
+		<h3>Porte NON (not):</h3>
+	<table class="wikitable droite">
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>NON A
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0
+	</td></tr></tbody></table>
+	</td>
+
+	<td>
+		<h3>Porte Non et (NAND):</h3>
+	<table class="wikitable droite">
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td colspan="2"><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>B</td>
+	<td>A NAND B
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>1</td>
+	<td>0
+	</td></tr></tbody></table>
+	</td>
+
+
+	<td>
+		<h3>Porte Non-ou (NOR):</h3>
+	<table class="wikitable droite">
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td colspan="2"><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>B</td>
+	<td>A NOR B
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>1</td>
+	<td>0
+	</td></tr></tbody></table>
+	</td>
+
+	<td>
+		<h3>Porte OU exclusif (XOR):</h3>
+	<table class="wikitable droite">
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td colspan="2"><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>B</td>
+	<td>A XOR B
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>0</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>1</td>
+	<td>0
+	</td></tr></tbody></table>
+	</td>
+
+	<td>
+		<h3>Porte Coincidance, NON-OU exclusif (XNOR):</h3>
+	<table class="wikitable droite">
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td colspan="2"><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>B</td>
+	<td>A XNOR B
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>1</td>
+	<td>1
+	</td></tr></tbody></table>
+	</td>
+
+	<td>
+		<h3>Porte FAUX (FAUX):</h3>
+	<table class="wikitable droite">
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td colspan="2"><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>B</td>
+	<td>FAUX
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>0</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0</td>
+	<td>0
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>1</td>
+	<td>0
+	</td></tr></tbody></table>
+	</td>
+
+
+	<td>
+		<h3>Porte VRAI (VRAI):</h3>
+		<br/>
+	<table class="wikitable droite">
+
+	<tbody><tr align="center" bgcolor="#ddeeff">
+	<td colspan="2"><b>Entrée</b></td>
+	<td><b>Sortie</b>
+	</td></tr>
+	<tr align="center" bgcolor="#ddeeff">
+	<td>A</td>
+	<td>B</td>
+	<td>VRAI
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>0</td>
+	<td>1</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>0</td>
+	<td>1
+	</td></tr>
+	<tr align="center" bgcolor="#ddffdd">
+	<td>1</td>
+	<td>1</td>
+	<td>1
+	</td></tr></tbody></table>
+	</td>
+	</tbody>
+</div>
+<p id="text">Une porte NON-ET (NAND) peut également être représentée en utilisant le symbole OU avec des bulles (inverseurs) sur les entrées, et une porte NON-OU (NOR) peut être représentée par un symbole ET avec des bulles sur les entrées. Cela reflète les lois d'équivalence de De Morgan ; cela permet de rendre également un diagramme plus lisible, ou de fabriquer un circuit facilement avec des portes préfabriquées, car un circuit qui a des bulles des deux côtés peut être remplacé par un circuit non-inversé en changeant la porte. Si une porte NON-ET est représentée par un OU avec des entrées inversées, ou qu'un NON-OU est représenté par un ET avec des entrées inversées, le remplacement se fait automatiquement dans le schéma (les bulles « s'annulent »). C'est courant dans les diagrammes logiques réels — si bien que le lecteur ne doit pas s'habituer à associer les symboles aux portes OU et ET automatiquement, mais doit aussi prendre en compte les inverseurs pour déterminer la bonne fonction représentée. Les entrées inversées sont particulièrement utiles dans le cas de signaux « actifs à l'état bas ». <p>
+<br/>
+<p id="text">Les deux autres portes fréquemment rencontrées sont la fonction OU exclusif et son inverse. Un OU exclusif à deux entrées ne renvoie un 1 que quand les deux entrées sont différentes, et un 0 quand elles sont égales, quelle que soit leur valeur. S'il y a plus de deux entrées, la porte renvoie 1 si le nombre d'entrées égales à 1 est impair1. Dans la pratique, ces portes sont souvent réalisées à partir de combinaisons de portes logiques plus simples.</p>
+
+		</div>
+		
+			
+		</section> </div>
+	</body>
+
+</html>
