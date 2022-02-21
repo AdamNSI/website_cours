@@ -34,8 +34,8 @@ margin-left: 32px;
 }
 div#mastehead
 {
-	width: 100%;
-	
+width: 100%;
+padding-bottom: 1550px;
 display: flex;
 align-self: auto;
     background: linear-gradient(-40deg,#9a326b 0,#42668a 100%);
@@ -135,6 +135,9 @@ h3
 {
 font-size: 20px;
 text-decoration: underline;
+display: flex;
+align-items: center;
+margin-left: 50%;
 }
 
 div#cours
@@ -149,5 +152,28 @@ width: 100%;
 div#video iframe
 {
     display: flex;
+    
+}
+
+table
+{
+    font-size: 100%;
+    
+    background-color: #f8f9fa;
+    color: #202122;
+    border-width: 1px;
+    display: flex;
+    border-spacing: 1px;
+    border-color: black;
+    margin-right: 50%;
+    margin-left: 50%;
+   
+
+
+
+}
+a
+{
+    text-decoration: underline;
     
 }
